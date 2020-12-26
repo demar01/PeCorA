@@ -64,3 +64,7 @@ If you have any questions or suggestions please contact us:
 Maria Dermit : maria.dermit at qmul.ac.uk
 
 Jesse Meyer: jesmeyer at mcw.edu
+
+### Additional information 
+
+Please see the original [paper](https://pubs.acs.org/doi/abs/10.1021/acs.jproteome.0c00602) 
