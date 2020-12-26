@@ -1,0 +1,43 @@
+Package: PeCorA
+Title: Peptide correlation analysis
+Version: 0.99.0
+Authors@R: c(
+    person("Maria", "Dermit",
+    email = "maria.dermit@qmul.ac.uk",
+    comment = c(ORCID = "0000-0002-6287-8367"),
+    role = c("aut", "cre")),
+    person("Jesse", "Meyer",
+		email = "jesmeyer@mcw.edu",
+		comment = c(ORCID = "0000-0003-2753-3926"),
+		role = "aut"))
+Description: The PeCorA package detects quantitative disagreements between 
+    peptides mapped to the same protein. It initially format the output of 
+    proteomics processing tools such as MaxQuant into an adecuate format for
+    the PeCorA algorithm. This algorithm fits linear models to assess whether
+    the slope of a peptide’s change across treatment groups differs from the 
+    slope of all other peptides assigned to the same protein. Finally, 
+    visualization tools are provided to explore resulting discordant peptides,
+    including boxplots.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Packaged: 2020-10-14 13:01:20 BST; Maria Dermit
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 4.1), reshape, ggplot2
+Imports: 
+    utils,
+    stats,
+    dplyr,
+    magrittr,
+    rmarkdown,
+    assertthat
+Suggests: 
+    testthat,
+    BiocStyle,
+    knitr,
+biocViews: DataImport,Proteomics, MassSpectrometry   
+VignetteBuilder: knitr
+URL: https://github.com/jessegmeyerlab/PeCorA
+BugReports: https://github.com/jessegmeyerlab/PeCorA/issues

@@ -1,0 +1,14 @@
+citHeader("To cite package 'PeCorA' in publications use:")
+citEntry(entry="article",
+         title  = "Peptide Correlation Analysis (PeCorA) Reveals Differential
+Proteoform Regulation",
+         author = personList(
+           person(given="Maria", family="Dermit"),
+           person(given="Jesse", family="Meyer")),
+         journal = "Journal of Proteome Research",
+         year = "2020",
+         textVersion = paste("Maria Dermit and Jesse G. Meyer",
+           "Peptide Correlation Analysis (PeCorA) Reveals Differential
+Proteoform Regulation.",
+           "Journal of Proteome Research (2020)")
+         )
