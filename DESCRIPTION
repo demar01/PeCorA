@@ -39,5 +39,5 @@ Suggests:
     knitr,
 biocViews: DataImport,Proteomics, MassSpectrometry   
 VignetteBuilder: knitr
-URL: https://github.com/jessegmeyerlab/PeCorA
-BugReports: https://github.com/jessegmeyerlab/PeCorA/issues
+URL: https://github.com/demar01/PeCorA
+BugReports: https://github.com/demar01/PeCorA/issues
