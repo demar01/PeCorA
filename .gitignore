@@ -4,3 +4,9 @@
 .Ruserdata
 PeCorA.Rproj
 man/.Rapp.history
+.DS_Store
+inst/.DS_Store
+R/.DS_Store
+tests/.DS_Store
+tests/testthat/.DS_Store
+vignettes/.DS_Store
