@@ -1,6 +1,6 @@
 Package: PeCorA
 Title: Peptide correlation analysis
-Version: 0.99.5
+Version: 0.99.6
 Authors@R: c(
     person("Maria", "Dermit",
     email = "maria.dermit@qmul.ac.uk",
